@@ -34,7 +34,7 @@
 class nivel
 {
 	public:
-		void iniciar(juego *_pjuego, grafico *grafico, grafico *pfondos, SDL_Surface *fondo);
+		void iniciar(juego *pjuego, grafico *pgrafico, grafico *pfondos, SDL_Surface *fondo);
 		int avanzar_nivel(int salto = 1);
 		int reiniciar_nivel(void);
 		int get_dist_suelo(int x, int y, int max);
