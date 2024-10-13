@@ -1,4 +1,4 @@
-SUBDIRS = data src po intl
+SUBDIRS = data src po
 
 EXTRA_DIST = AUTHORS ChangeLog NEWS README THANKS TODO \
 	intltool-extract.in intltool-merge.in intltool-update.in
