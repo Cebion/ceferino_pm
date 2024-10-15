@@ -93,7 +93,7 @@ int mundo :: iniciar (void)
 	ico = IMG_Load (DATADIR "/ima/icono.png");
 		
 	SDL_ShowCursor(SDL_DISABLE);
-	SDL_WM_SetCaption("Don Ceferino Hazaña - ver " VERSION, NULL);
+	SDL_WM_SetCaption("Don Ceferino Hazana - ver " VERSION, NULL);
 	
 	if (ico)
 	{
